@@ -40,7 +40,7 @@ namespace ShopKillScreen
         {
             if (JsonKillScreen == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Ýôôåêò ïðè óáèéñòâå");
+            SHOP_API.CreateCategory(CategoryName, "Ð­Ñ„Ñ„ÐµÐºÑ‚ Ð¿Ñ€Ð¸ ÑƒÐ±Ð¸Ð¹ÑÑ‚Ð²Ðµ");
 
             foreach (var item in JsonKillScreen.Properties().Where(p => p.Value is JObject))
             {
